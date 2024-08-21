@@ -1,0 +1,64 @@
+.myCard {
+    height: 350px;
+}
+
+.myCard img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.imgDesc {
+    position: absolute;
+    bottom: 7px;
+    text-align: center;
+    padding: 5px;
+    width: 90%;
+    left: 5%;
+}
+
+.layOut {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgLayOut {
+    width: 400px;
+    height: 350px;
+    position: relative;
+}
+
+.imgLayOut img {
+    width: 100%;
+    height: 100%;
+}
+
+.icons {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons i {
+    font-size: 30px;
+    color: #fff;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.iconX {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
